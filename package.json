@@ -2,7 +2,7 @@
   "name": "arum-fx",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://octarinegroup.github.io/aurum-fx/",
+  "homepage": "https://octarinegroup.github.io/",
   "dependencies": {
     "fs": "^0.0.1-security",
     "gh-pages": "^2.0.1",
