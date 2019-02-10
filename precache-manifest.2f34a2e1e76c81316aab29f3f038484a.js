@@ -60,7 +60,7 @@ self.__precacheManifest = [
     "url": "/aurum-fx/static/media/DSC_2620.642b606e.JPG"
   },
   {
-    "revision": "9eb27f1b7d508b0dbf34aac6e1800c69",
+    "revision": "fd7c9355ce1a24535917c924f27c5e59",
     "url": "/aurum-fx/index.html"
   }
 ];
