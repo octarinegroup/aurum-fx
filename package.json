@@ -4,10 +4,14 @@
   "private": true,
   "homepage": "https://octarinegroup.github.io/aurum-fx",
   "dependencies": {
+    "fs": "^0.0.1-security",
     "gh-pages": "^2.0.1",
     "react": "^16.8.1",
     "react-dom": "^16.8.1",
-    "react-scripts": "2.1.3"
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.3",
+    "react-transition-group": "^2.5.3",
+    "styled-components": "^4.1.3"
   },
   "scripts": {
     "start": "react-scripts start",
