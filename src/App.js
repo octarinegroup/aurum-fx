@@ -41,6 +41,11 @@ const Wrapper = styled.div`
 `
 
 class App extends Component {
+  constructor(props) {
+    super(props)
+
+    console.log('Homepage', `"${process.env.PUBLIC_URL}"`)
+  }
   render() {
     return (
       <div>
