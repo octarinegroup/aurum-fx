@@ -7,7 +7,7 @@ import './App.css';
 import HomeContainer from './containers/HomeContainer';
 import ContactContainer from './containers/ContactContainer';
 
-import { Navbar } from './components/Navbar/Navbar'
+// import { Navbar } from './components/Navbar/Navbar'
 
 const Wrapper = styled.div`
   .fade-enter {
