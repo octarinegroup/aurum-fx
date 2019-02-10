@@ -32,17 +32,12 @@ jobs:
 
       - run:
           name: Installing Dependencies
-          command: yarn install
+          command: yarn install --production
 
       - save_cache:
           paths:
             - node_modules
           key: v1-dependencies-{{ checksum "package.json" }}
-
-      # run tests!
-      - run:
-          name: Test Build
-          command: yarn test
 
       # Setup Git
       - run:
