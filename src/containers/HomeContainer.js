@@ -1,7 +1,9 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
 
-import { ImageDrawer } from '../components/ImageDrawer/ImageDrawer'
+// import { ImageDrawer } from '../components/ImageDrawer/ImageDrawer'
+// import { HeroImage } from '../components/HeroImage/HeroImage'
+import { Sidenav } from '../components/Sidenav/Sidenav'
 
 import { getImages } from '../actions/images'
 
@@ -46,37 +48,17 @@ class HomeContainer extends Component {
   }
 
   render() {
-    const HeroImage = styled.div`
-      position: absolute;
-      top: 0;
-      right: 0;
-      background-image: url("${this.state.currentHeroImage}");
-      background-repeat: no-repeat;
-      background-size: cover;
-      width: 100vw;
-      height: 100vh;
-      z-index: -1;
-    `
-
     return (
       <Wrapper>
-        <HeroImage />
-        <ImageDrawer allImages={this.state.allImages}
-          handleImageChange={this.handleImageChange}
-          handleShowImageDrawerChange={this.handleShowImageDrawerChange}
-          showImageDrawer={this.state.showImageDrawer}
-        />
+        HomeContainer
       </Wrapper>
     )
   }
 }
 
 const Wrapper = styled.div`
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
   position: relative;
 `
-
-
 
 export default HomeContainer

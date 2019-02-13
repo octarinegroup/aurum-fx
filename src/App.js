@@ -6,10 +6,13 @@ import { TransitionGroup, CSSTransition } from "react-transition-group";
 import './App.css';
 import HomeContainer from './containers/HomeContainer';
 import ContactContainer from './containers/ContactContainer';
-
-// import { Navbar } from './components/Navbar/Navbar'
+import { Sidenav } from './components/Sidenav/Sidenav'
 
 const Wrapper = styled.div`
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  
   .fade-enter {
     opacity: 0.01;
   }
@@ -34,7 +37,6 @@ const Wrapper = styled.div`
 
   section.route-section {
     position: absolute;
-    width: 100%;
     top: 0;
     left: 0;
   }
@@ -49,8 +51,8 @@ class App extends Component {
   render() {
     return (
       <div>
-        {/* <Navbar /> */}
         <Wrapper>
+          <Sidenav />
           <TransitionGroup className="transition-group">
             <CSSTransition
               key={this.props.location.key}
