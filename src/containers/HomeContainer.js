@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import styled from 'styled-components'
 
 import { ImageDrawer } from '../components/ImageDrawer/ImageDrawer'
-// import { HeroImage } from '../components/HeroImage/HeroImage'
+import { HeroImage } from '../components/HeroImage/HeroImage'
 // import { Sidenav } from '../components/Sidenav/Sidenav'
 
 import { getImages } from '../actions/images'
@@ -50,14 +50,16 @@ class HomeContainer extends Component {
   render() {
     return (
       <Wrapper>
-        <ImageDrawer allImages={[]} />
+        HomeContainer
+        {/* <HeroImage currentHeroImage={this.state.currentHeroImage} />
+        <ImageDrawer allImages={this.state.allImages} handleShowImageDrawerChange={this.handleShowImageDrawerChange} showImageDrawer={this.state.showImageDrawer} handleImageChange={this.handleImageChange} /> */}
       </Wrapper>
     )
   }
 }
 
 const Wrapper = styled.div`
-  width: 100%;
+  width: 80vw;
   position: relative;
 `
 

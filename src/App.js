@@ -5,6 +5,7 @@ import { TransitionGroup, CSSTransition } from "react-transition-group";
 
 import './App.css';
 import HomeContainer from './containers/HomeContainer';
+import CategoryContainer from './containers/CategoryContainer';
 import ContactContainer from './containers/ContactContainer';
 import { Sidenav } from './components/Sidenav/Sidenav'
 
@@ -62,6 +63,13 @@ class App extends Component {
               <section className="route-section">
                 <Switch location={this.props.location}>
                   <Route exact path="/" component={HomeContainer} />
+                  <Route exact path="/product" render={() => <CategoryContainer category="product" />} />
+                  <Route exact path="/lifestyle" render={() => <CategoryContainer category="lifestyle" />} />
+                  <Route exact path="/wedding" render={() => <CategoryContainer category="wedding" />} />
+                  <Route exact path="/portraits" render={() => <CategoryContainer category="portraits" />} />
+                  <Route exact path="/macro" render={() => <CategoryContainer category="macro" />} />
+                  <Route exact path="/nature" render={() => <CategoryContainer category="nature" />} />
+                  <Route exact path="/about" component={HomeContainer} />
                   <Route path="/contact" component={ContactContainer} />
                 </Switch>
               </section>
