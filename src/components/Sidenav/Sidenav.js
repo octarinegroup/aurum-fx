@@ -11,6 +11,12 @@ export const Sidenav = () => {
       <ItemsWrapper>
         <ul>
           <li><StyledLink exact to="/" activeClassName="active">Home</StyledLink></li>
+          <li><StyledLink exact to="/product" activeClassName="active">Product</StyledLink></li>
+          <li><StyledLink exact to="/lifestyle" activeClassName="active">Lifestyle</StyledLink></li>
+          <li><StyledLink exact to="/wedding" activeClassName="active">Wedding</StyledLink></li>
+          <li><StyledLink exact to="/portraits" activeClassName="active">Portraits</StyledLink></li>
+          <li><StyledLink exact to="/macro" activeClassName="active">Macro</StyledLink></li>
+          <li><StyledLink exact to="/nature" activeClassName="active">Nature</StyledLink></li>
           <li><StyledLink exact to="/about" activeClassName="active">About</StyledLink></li>
           <li><StyledLink exact to="/contact" activeClassName="active">Contact</StyledLink></li>
         </ul>

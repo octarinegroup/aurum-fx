@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
 
-// import { ImageDrawer } from '../components/ImageDrawer/ImageDrawer'
+import { ImageDrawer } from '../components/ImageDrawer/ImageDrawer'
 // import { HeroImage } from '../components/HeroImage/HeroImage'
 // import { Sidenav } from '../components/Sidenav/Sidenav'
 
@@ -50,7 +50,7 @@ class HomeContainer extends Component {
   render() {
     return (
       <Wrapper>
-        HomeContainer
+        <ImageDrawer allImages={[]} />
       </Wrapper>
     )
   }
