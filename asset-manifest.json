@@ -1,7 +1,7 @@
 {
   "main.css": "/aurum-fx/static/css/main.44491b89.chunk.css",
-  "main.js": "/aurum-fx/static/js/main.b07950fa.chunk.js",
-  "main.js.map": "/aurum-fx/static/js/main.b07950fa.chunk.js.map",
+  "main.js": "/aurum-fx/static/js/main.88d0b424.chunk.js",
+  "main.js.map": "/aurum-fx/static/js/main.88d0b424.chunk.js.map",
   "static/js/1.bb557eff.chunk.js": "/aurum-fx/static/js/1.bb557eff.chunk.js",
   "static/js/1.bb557eff.chunk.js.map": "/aurum-fx/static/js/1.bb557eff.chunk.js.map",
   "runtime~main.js": "/aurum-fx/static/js/runtime~main.41327226.js",
@@ -20,6 +20,6 @@
   "static/media/DSC_1521.JPG": "/aurum-fx/static/media/DSC_1521.93fbfbfc.JPG",
   "static/css/main.44491b89.chunk.css.map": "/aurum-fx/static/css/main.44491b89.chunk.css.map",
   "index.html": "/aurum-fx/index.html",
-  "precache-manifest.04dc8e8b7547a9616b7ef25f4ad36bf1.js": "/aurum-fx/precache-manifest.04dc8e8b7547a9616b7ef25f4ad36bf1.js",
+  "precache-manifest.01ff42361ffd4d16ff5b83e8097a3559.js": "/aurum-fx/precache-manifest.01ff42361ffd4d16ff5b83e8097a3559.js",
   "service-worker.js": "/aurum-fx/service-worker.js"
 }

@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/aurum-fx/static/media/DSC_1806.dcaeb3da.JPG"
   },
   {
-    "revision": "b07950fa87d6a93cd21d",
+    "revision": "88d0b424c093167b6fde",
     "url": "/aurum-fx/static/css/main.44491b89.chunk.css"
   },
   {
@@ -32,8 +32,8 @@ self.__precacheManifest = [
     "url": "/aurum-fx/static/media/DSC_1626.08669627.JPG"
   },
   {
-    "revision": "b07950fa87d6a93cd21d",
-    "url": "/aurum-fx/static/js/main.b07950fa.chunk.js"
+    "revision": "88d0b424c093167b6fde",
+    "url": "/aurum-fx/static/js/main.88d0b424.chunk.js"
   },
   {
     "revision": "4d48ee3225d3309804cb41f3d20c3755",
@@ -64,7 +64,7 @@ self.__precacheManifest = [
     "url": "/aurum-fx/static/media/logo_10x.bb85754c.png"
   },
   {
-    "revision": "8e9888fabed13fa0e431678395d46cb5",
+    "revision": "827bf18883ac2c1cf6b8ca3105bec70e",
     "url": "/aurum-fx/index.html"
   }
 ];
