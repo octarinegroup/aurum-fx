@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import { NavLink } from "react-router-dom";
 
-import { SidenavItem } from './SidenavItem/SidenavItem'
+// import { SidenavItem } from './SidenavItem/SidenavItem'
 
 export const Sidenav = () => {
   return (

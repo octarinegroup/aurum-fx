@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 // import { ImageDrawer } from '../components/ImageDrawer/ImageDrawer'
 // import { HeroImage } from '../components/HeroImage/HeroImage'
-import { Sidenav } from '../components/Sidenav/Sidenav'
+// import { Sidenav } from '../components/Sidenav/Sidenav'
 
 import { getImages } from '../actions/images'
 
