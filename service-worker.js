@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/aurum-fx/precache-manifest.f975a2b1421eb0bb535b9f40e09b02f5.js"
+  "/aurum-fx/precache-manifest.04dc8e8b7547a9616b7ef25f4ad36bf1.js"
 );
 
 workbox.clientsClaim();

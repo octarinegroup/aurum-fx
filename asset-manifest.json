@@ -1,11 +1,12 @@
 {
-  "main.css": "/aurum-fx/static/css/main.e4344651.chunk.css",
-  "main.js": "/aurum-fx/static/js/main.105ea759.chunk.js",
-  "main.js.map": "/aurum-fx/static/js/main.105ea759.chunk.js.map",
-  "static/js/1.dc263fdf.chunk.js": "/aurum-fx/static/js/1.dc263fdf.chunk.js",
-  "static/js/1.dc263fdf.chunk.js.map": "/aurum-fx/static/js/1.dc263fdf.chunk.js.map",
+  "main.css": "/aurum-fx/static/css/main.44491b89.chunk.css",
+  "main.js": "/aurum-fx/static/js/main.b07950fa.chunk.js",
+  "main.js.map": "/aurum-fx/static/js/main.b07950fa.chunk.js.map",
+  "static/js/1.bb557eff.chunk.js": "/aurum-fx/static/js/1.bb557eff.chunk.js",
+  "static/js/1.bb557eff.chunk.js.map": "/aurum-fx/static/js/1.bb557eff.chunk.js.map",
   "runtime~main.js": "/aurum-fx/static/js/runtime~main.41327226.js",
   "runtime~main.js.map": "/aurum-fx/static/js/runtime~main.41327226.js.map",
+  "static/media/logo_10x.png": "/aurum-fx/static/media/logo_10x.bb85754c.png",
   "static/media/DSC_1502.JPG": "/aurum-fx/static/media/DSC_1502.1fba0364.JPG",
   "static/media/DSC_1585.JPG": "/aurum-fx/static/media/DSC_1585.3f1ca81a.JPG",
   "static/media/DSC_1626.JPG": "/aurum-fx/static/media/DSC_1626.08669627.JPG",
@@ -17,8 +18,8 @@
   "static/media/DSC_2618.JPG": "/aurum-fx/static/media/DSC_2618.3b2326f0.JPG",
   "static/media/DSC_2620.JPG": "/aurum-fx/static/media/DSC_2620.642b606e.JPG",
   "static/media/DSC_1521.JPG": "/aurum-fx/static/media/DSC_1521.93fbfbfc.JPG",
-  "static/css/main.e4344651.chunk.css.map": "/aurum-fx/static/css/main.e4344651.chunk.css.map",
+  "static/css/main.44491b89.chunk.css.map": "/aurum-fx/static/css/main.44491b89.chunk.css.map",
   "index.html": "/aurum-fx/index.html",
-  "precache-manifest.f975a2b1421eb0bb535b9f40e09b02f5.js": "/aurum-fx/precache-manifest.f975a2b1421eb0bb535b9f40e09b02f5.js",
+  "precache-manifest.04dc8e8b7547a9616b7ef25f4ad36bf1.js": "/aurum-fx/precache-manifest.04dc8e8b7547a9616b7ef25f4ad36bf1.js",
   "service-worker.js": "/aurum-fx/service-worker.js"
 }
