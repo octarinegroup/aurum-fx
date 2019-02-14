@@ -7,7 +7,7 @@ import { NavLink } from "react-router-dom";
 export const Sidenav = () => {
   return (
     <Wrapper>
-      <NavLink exact to="/"><Logo src="/assets/images/logo_10x.png" alt="logo" /></NavLink>
+      <NavLink exact to="/"><Logo src={`${process.env.PUBLIC_URL}/assets/images/logo_10x.png`} alt="logo" /></NavLink>
       <ItemsWrapper>
         <ul>
           <li><StyledLink exact to="/" activeClassName="active">Home</StyledLink></li>
